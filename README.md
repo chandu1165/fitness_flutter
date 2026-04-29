@@ -1,17 +1,19 @@
-# fitness_flutter
+# 🏋️ Virtual Fitness Trainer App
 
-A new Flutter project.
+A Flutter-based mobile application with Flask backend that provides workout plans, BMI calculation, and goal-based progress tracking.
 
-## Getting Started
+## 🚀 Features
+- User Authentication
+- BMI Calculator
+- Workout Plans
+- Daily Workout Tracker
+- Goal-based fitness system
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- Flutter (Frontend)
+- Flask (Backend)
+- SQLite (Database)
 
-A few resources to get you started if this is your first Flutter project:
+## ▶️ Run Project
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Backend
