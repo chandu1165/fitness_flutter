@@ -1,3 +1,4 @@
+# Python / Flask
 __pycache__/
 *.py[cod]
 *.db
@@ -6,13 +7,44 @@ __pycache__/
 .venv/
 venv/
 
-fitness_flutter/.dart_tool/
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
 fitness_flutter/build/
-fitness_flutter/.flutter-plugins
-fitness_flutter/.flutter-plugins-dependencies
-fitness_flutter/.packages
 fitness_flutter/android/.gradle/
 fitness_flutter/android/local.properties
 
+# Android Studio build outputs
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# IDE / editor files
+*.iml
+*.ipr
+*.iws
+.idea/
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Miscellaneous
+*.class
+*.log
+*.swp
+app.*.symbols
+app.*.map.json
 .DS_Store
 Thumbs.db
