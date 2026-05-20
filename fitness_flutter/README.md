@@ -1,17 +1,24 @@
-# fitness_flutter
+# Fitness Flutter App
 
-A new Flutter project.
+This folder contains the Flutter mobile app for the Virtual Fitness System.
 
-## Getting Started
+The app connects to the Flask backend in the repo root and supports authentication, BMI calculation, body goal planning, workout recommendations, calorie targets, daily workout tracking, and progress history.
 
-This project is a starting point for a Flutter application.
+## Run
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+For a physical Android device, pass a backend URL that the phone can access:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run --dart-define=API_BASE_URL=http://YOUR_LOCAL_IP:5000
+```
+
+## Build APK
+
+```bash
+flutter build apk --release --dart-define=API_BASE_URL=http://YOUR_BACKEND_URL:5000
+```
